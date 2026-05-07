@@ -233,3 +233,4 @@ void updateShiftRegister(){
   shiftOut(secondDataPin, secondClockPin, MSBFIRST, SECOND_LEDS);
   digitalWrite(secondLatchPin, HIGH);
 }
+// changed LEDS = 255 to FIRST_LEDS = 255; SECOND_LEDS = 255;
